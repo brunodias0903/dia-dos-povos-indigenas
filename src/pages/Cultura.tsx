@@ -1,4 +1,15 @@
-import { Container } from "react-bootstrap";
+import AdornosIndigenas from "@/assets/adornos-indigenas.jpg";
+import AlimentacaoIndigena from "@/assets/alimentacao-indigena.jpg";
+import CartazLinguasIndigenas from "@/assets/cartaz-linguas-indigenas.png";
+import CestariaIndigena from "@/assets/cestaria-indigena.webp";
+import CocarTradicionalIndigena from "@/assets/cocar-tradicional-indigena.jpg";
+import EspiritualidadeIndigena from "@/assets/espiritualidade-indigena.jpg";
+import Mandioca from "@/assets/mandioca.jpg";
+import PinturaIndigenaUrucum from "@/assets/pintura-indigena-urucum.jpg";
+import RepresentacaoLinguasIndigenas from "@/assets/representacao-linguas-indigenas.jpg";
+import RitualTradicionalIndigena from "@/assets/ritual-tradicional-indigena.webp";
+import styles from "@/styles/cultura.module.css";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Cultura = () => {
   return (
@@ -26,6 +37,22 @@ const Cultura = () => {
         mandioca, por exemplo, é transformada em farinha, beiju, tapioca e cauim
         (uma bebida fermentada ancestral).
       </p>
+      <Row className="my-4">
+        <Col md={6}>
+          <img
+            src={AlimentacaoIndigena}
+            alt="Alimentação indígena"
+            className={styles.culturaImagem}
+          />
+        </Col>
+        <Col md={6}>
+          <img
+            src={Mandioca}
+            alt="Mandioca utilizada na culinária indígena"
+            className={styles.culturaImagem}
+          />
+        </Col>
+      </Row>
 
       <h2 className="mt-4" style={{ color: "#040938" }}>
         🎨 Arte e Pintura Corporal
@@ -38,6 +65,22 @@ const Cultura = () => {
         adornos são produzidos com técnicas ancestrais e possuem grande valor
         simbólico.
       </p>
+      <Row className="my-4">
+        <Col md={6}>
+          <img
+            src={PinturaIndigenaUrucum}
+            alt="Pintura indígena com urucum"
+            className={styles.culturaImagem}
+          />
+        </Col>
+        <Col md={6}>
+          <img
+            src={CestariaIndigena}
+            alt="Cestaria artesanal indígena"
+            className={styles.culturaImagem}
+          />
+        </Col>
+      </Row>
 
       <h2 className="mt-4" style={{ color: "#040938" }}>
         🌀 Rituais e Espiritualidade
@@ -49,6 +92,22 @@ const Cultura = () => {
         tribos acreditam em espíritos protetores, em seres da floresta e na
         interligação entre todos os elementos do universo.
       </p>
+      <Row className="my-4">
+        <Col md={6}>
+          <img
+            src={RitualTradicionalIndigena}
+            alt="Ritual tradicional indígena com dança"
+            className={styles.culturaImagem}
+          />
+        </Col>
+        <Col md={6}>
+          <img
+            src={EspiritualidadeIndigena}
+            alt="Espiritualidade nos povos indígenas"
+            className={styles.culturaImagem}
+          />
+        </Col>
+      </Row>
 
       <h2 className="mt-4" style={{ color: "#040938" }}>
         🗣️ Línguas Indígenas
@@ -59,6 +118,22 @@ const Cultura = () => {
         Essas línguas carregam saberes milenares e formas únicas de compreender
         o mundo, muitas vezes sem correspondência direta com o português.
       </p>
+      <Row className="my-4">
+        <Col md={6}>
+          <img
+            src={RepresentacaoLinguasIndigenas}
+            alt="Representação de línguas indígenas"
+            className={styles.culturaImagem}
+          />
+        </Col>
+        <Col md={6}>
+          <img
+            src={CartazLinguasIndigenas}
+            alt="Cartaz da década das línguas indígenas"
+            className={styles.culturaImagem}
+          />
+        </Col>
+      </Row>
 
       <h2 className="mt-4" style={{ color: "#040938" }}>
         👕 Vestimentas e Adornos
@@ -69,6 +144,22 @@ const Cultura = () => {
         feitos com sementes, penas, ossos e fibras naturais. A vestimenta é uma
         extensão da identidade cultural e do vínculo com a natureza.
       </p>
+      <Row className="my-4">
+        <Col md={6}>
+          <img
+            src={CocarTradicionalIndigena}
+            alt="Indígena com cocar tradicional"
+            className={styles.culturaImagem}
+          />
+        </Col>
+        <Col md={6}>
+          <img
+            src={AdornosIndigenas}
+            alt="Adornos indígenas feitos à mão"
+            className={styles.culturaImagem}
+          />
+        </Col>
+      </Row>
     </Container>
   );
 };

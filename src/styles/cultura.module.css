@@ -1,0 +1,20 @@
+.culturaImagem {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.culturaImagem:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .culturaImagem {
+    margin-bottom: 0;
+    height: 400px;
+  }
+}
