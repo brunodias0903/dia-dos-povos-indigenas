@@ -13,7 +13,7 @@ const Navbar = () => (
       </BSNavbar.Brand>
       <BSNavbar.Toggle aria-controls="basic-navbar-nav" />
       <BSNavbar.Collapse id="basic-navbar-nav">
-        <Nav className="ms-auto gap-3">
+        <Nav className="ms-auto">
           <Nav.Link as={Link} to="/" className="d-flex align-items-center">
             <FaHome className="me-2" size={18} />
             Início
