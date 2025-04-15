@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+
 import { FaGithub, FaUniversity } from "react-icons/fa";
 
 const Footer = () => {

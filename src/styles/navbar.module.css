@@ -1,12 +1,12 @@
 .customNavbar {
-  background-color: #040938 !important; /* Cor de fundo personalizada */
+  background-color: #040938 !important;
 }
 
 .customNavbar .navbar-brand,
 .customNavbar .nav-link {
-  color: white !important; /* Cor do texto para branco */
+  color: white !important;
 }
 
 .customNavbar .nav-link:hover {
-  color: #f1f1f1 !important; /* Cor de hover suave */
+  color: #f1f1f1 !important;
 }

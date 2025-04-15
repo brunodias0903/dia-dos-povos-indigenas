@@ -9,6 +9,7 @@ import PinturaIndigenaUrucum from "@/assets/pintura-indigena-urucum.jpg";
 import RepresentacaoLinguasIndigenas from "@/assets/representacao-linguas-indigenas.jpg";
 import RitualTradicionalIndigena from "@/assets/ritual-tradicional-indigena.webp";
 import styles from "@/styles/cultura.module.css";
+
 import { Col, Container, Row } from "react-bootstrap";
 
 const Cultura = () => {

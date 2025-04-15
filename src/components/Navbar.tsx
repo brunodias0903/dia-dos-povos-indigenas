@@ -1,4 +1,5 @@
 import styles from "@/styles/Navbar.module.css";
+
 import { Navbar as BSNavbar, Container, Nav } from "react-bootstrap";
 import { FaFeatherAlt, FaHome, FaLeaf } from "react-icons/fa";
 import { Link } from "react-router-dom";
