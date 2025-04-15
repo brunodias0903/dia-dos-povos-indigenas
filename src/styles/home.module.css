@@ -1,0 +1,77 @@
+.banner {
+  background-image: url("@/assets/textura-indigena.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 4rem 1rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImage {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.sectionTitle {
+  color: #040938;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.spotifyButton {
+  background-color: #1db954 !important;
+  border-color: #1db954 !important;
+  color: white !important;
+  transition: background-color 0.3s ease;
+}
+
+.spotifyButton:hover {
+  background-color: #1aa34a !important;
+  border-color: #1aa34a !important;
+}
+
+.bannerTitleContainer {
+  width: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.bannerText {
+  color: #040938;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.phraseList {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  list-style-type: "🌿 ";
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
