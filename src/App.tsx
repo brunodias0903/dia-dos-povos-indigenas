@@ -1,8 +1,8 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import Cultura from "@/pages/Cultura";
 import Home from "@/pages/Home";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
