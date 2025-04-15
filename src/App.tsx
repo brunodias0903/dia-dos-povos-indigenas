@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Navbar from "@/components/Navbar";
 import Cultura from "@/pages/Cultura";
 import Home from "@/pages/Home";
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cultura" element={<Cultura />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
